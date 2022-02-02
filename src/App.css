@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Play&display=swap");
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Play', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+body {
+  min-height: 70vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: rgb(240, 242, 255);
+  padding: 40px 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Play", sans-serif;
+}
+.icon {
+  margin: 0px 10px 0 0;
+  font-size: 30px;
+  color: rgb(83, 83, 83);
+}
+.list_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 0px 20px;
+}
+
+.list_container .list_items li {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #666666;
+  font-family: "Indie Flower", cursive;
+}
+
+.inputForm_conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+.inputForm_conatiner__form {
+  flex-basis: 80%;
+  margin-right: 10px;
+}
+.inputForm_conatiner__button {
+  flex-basis: auto;
+}
+
+.inputForm_conatiner input {
+  padding: 10px 20px 10px 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(194, 192, 192);
+  outline: none;
+  margin: 0 4px 0 0;
+  font-size: 20px;
+  width: 100%;
+}
+.inputForm_conatiner button {
+  border: 1px solid rgb(194, 192, 192);
+  background: rgb(13, 151, 110);
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 7px;
+  color: white;
+  font-family: "Play", sans-serif;
+}
